@@ -1,0 +1,1 @@
+LOCAL_PATH := device/xiaomi/mi_x08a
