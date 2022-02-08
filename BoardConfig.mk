@@ -94,7 +94,7 @@ TW_INPUT_BLACKLIST := "hbtp_vm"
 # TW_USE_TOOLBOX := true
 # TW_EXTRA_LANGUAGES := false
 TARGET_RECOVERY_DEVICE_MODULES += android.hardware.boot@1.0 libcryptfs_hw
-TW_RECOVERY_ADDITIONAL_RELINK_FILES := ${OUT}/system/lib64/android.hardware.boot@1.0.so
+TW_RECOVERY_ADDITIONAL_RELINK_FILES := android.hardware.boot@1.0.so
 
 # Excludes
 TW_EXCLUDE_DEFAULT_USB_INIT := true
